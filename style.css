@@ -1,0 +1,42 @@
+/* familiasempresarias.lat · v1.0 · paleta provisional (dorado ABCon #A8874F + azul profundo) */
+:root{--oro:#A8874F;--oro-osc:#8a6d3b;--azul:#1f2d3d;--tinta:#24292f;--suave:#5b6470;--fondo:#faf8f4;--linea:#e6e0d4;--blanco:#fff}
+*{box-sizing:border-box}
+html{font-size:17px}
+body{margin:0;font-family:"Source Sans 3","Segoe UI",Arial,sans-serif;color:var(--tinta);background:var(--blanco);line-height:1.65}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;color:var(--azul);line-height:1.25}
+h1{font-size:2.2rem;margin:.2em 0 .5em}
+h2{font-size:1.5rem;margin:0 0 .6em}
+h3{font-size:1.15rem;margin:1.2em 0 .3em}
+a{color:var(--oro-osc)}
+.wrap{max-width:960px;margin:0 auto;padding:0 1.25rem}
+.top{background:var(--blanco);border-bottom:1px solid var(--linea)}
+.top .wrap{display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap;padding-top:.7rem;padding-bottom:.7rem}
+.brand img{display:block;height:44px;width:auto}
+.top nav{flex:1}
+.top nav ul{display:flex;flex-wrap:wrap;gap:.2rem .9rem;font-size:.95rem;list-style:none;margin:0;padding:0}
+.top nav a{color:var(--azul);text-decoration:none;font-weight:600}
+.top nav a:hover{color:var(--oro-osc)}
+.btn{display:inline-block;background:var(--oro);color:var(--blanco);padding:.6em 1.1em;border-radius:6px;text-decoration:none;font-weight:700;border:0;cursor:pointer;font-size:1rem}
+.btn:hover{background:var(--oro-osc)}
+.btn2{background:var(--azul)}
+.page-head{background:var(--fondo);border-bottom:1px solid var(--linea);padding:3rem 0 2rem}
+.answer{font-size:1.2rem;max-width:46em}
+.updated{color:var(--suave);font-size:.85rem}
+.band{padding:2.2rem 0;border-bottom:1px solid var(--linea)}
+.band:nth-of-type(even){background:var(--fondo)}
+.cta{text-align:center;background:var(--azul)!important}
+table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.95rem}
+th,td{border:1px solid var(--linea);padding:.55em .7em;text-align:left;vertical-align:top}
+th{background:var(--azul);color:var(--blanco)}
+.pendiente{background:#fff3cd;color:#7a5b00;padding:0 .25em;border-radius:3px;font-size:.9em}
+.faq h3{margin-top:1.3em}
+.diag fieldset{border:1px solid var(--linea);border-radius:8px;margin:0 0 1rem;padding:1rem 1.2rem;background:var(--blanco)}
+.diag legend{font-weight:700;color:var(--azul);padding:0 .3em}
+.diag label{display:block;margin:.35rem 0}
+.diag input[type=text],.diag input:not([type]),.diag input[type=email],.diag input[type=tel],.diag select{display:block;width:100%;max-width:28rem;padding:.45em;border:1px solid #c9c2b4;border-radius:5px;font-size:1rem;margin-top:.2rem}
+.diag .check{font-size:.92rem}
+.resultado{border:2px solid var(--oro);border-radius:8px;padding:1rem 1.2rem;background:var(--fondo);margin-top:1rem}
+footer{background:var(--azul);color:#e9e4da;padding:2rem 0;font-size:.92rem}
+footer a{color:#e8cf9f}
+footer ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.3rem 1.2rem}
+@media(max-width:640px){html{font-size:16px}h1{font-size:1.7rem}.top .wrap{gap:.6rem}}
