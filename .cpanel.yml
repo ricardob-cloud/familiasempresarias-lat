@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home2/famemlat/public_html/
-    - /bin/cp -R aviso-de-privacidad contacto datos-oficiales diagnostico diplomado guias img index.html metodo plan-de-sucesion precios preguntas-frecuentes ricardo-bolanos robots.txt servicios sitemap.xml style.css $DEPLOYPATH
